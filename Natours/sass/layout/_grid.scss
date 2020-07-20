@@ -1,6 +1,5 @@
 .row{
     max-width: $grid-width;
-    background-color: #eee;
     margin: 0 auto;
     margin-bottom: $gutter-vertical;
     // SELECT EVERYTHING EXCEPT THE LAST CHILD
@@ -14,7 +13,6 @@
     // WE CAN GET IN THE END WITH [class$="col-"] OR CONTENT IN ANY PLACE IN THE CLASS [class*="col-"] 
     // GET ALL CLASS THAT HAS "col-" IN THE BIGNER EX: col-1-of-2
     [class^="col-"]{
-        background: orangered;
         float: left;
         &:not(:last-child){
             margin-right: $gutter-horizontal;
