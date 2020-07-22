@@ -7,14 +7,15 @@
 @import "base/typography";
 @import "base/animations";
 
+@import "components/card";
+@import "components/form";
+@import "components/story";
 @import "components/button";
+@import "components/bg-video";
 @import "components/composition";
 @import "components/feature-box";
-@import "components/bg-video";
-@import "components/story";
-@import "components/card";
 
-@import "layout/header";
 @import "layout/grid";
+@import "layout/header";
 
 @import "pages/home";
